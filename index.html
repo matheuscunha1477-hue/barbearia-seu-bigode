@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Barbearia - Agendamentos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Barbearia Seu bigode</h1>
+  
+  <form id="form">
+    <input type="text" id="nome" placeholder="Nome do cliente" required>
+    <input type="date" id="data" required>
+    <input type="time" id="hora" required>
+    <select id="barbeiro">
+      <option value="Carlos">Carlos</option>
+      <option value="João">João</option>
+    </select>
+    <button type="submit">Agendar</button>
+  </form>
+
+  <div id="lista"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
